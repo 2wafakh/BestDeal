@@ -11,12 +11,12 @@ import java.sql.SQLException;
 
 /**
  *
- * @author Karray
+ * @author pira
  */
 public class MyConnection {
 
      private static final  String driver = "com.mysql.jdbc.Driver";
-   private static final  String url = "jdbc:mysql://localhost:3306/ds";
+   private static final  String url = "jdbc:mysql://localhost:3306/pi";
    private static final  String login = "root";
    private static final  String pwd = "";
    private static Connection con;
